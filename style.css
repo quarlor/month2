@@ -1,0 +1,278 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.block1{
+    width: 25%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+.block2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(252, 179, 185);
+}
+
+.block3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(250, 199, 134);
+}
+
+.block4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(172, 227, 193);
+}
+
+.block1 li{
+    background-color: antiquewhite;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px ;
+    height: 100%;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\2705";
+}
+
+.block1 li:hover{
+    background-color: darksalmon;
+    color: white;
+    width: 70%;
+    height: 45px;
+    list-style-type: "\274C";
+}
+
+.block2 li{
+    background-color: antiquewhite;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px ;
+    height: 100%;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\2705";
+}
+
+.block2 li:hover{
+    background-color: darksalmon;
+    color: white;
+    width: 70%;
+    height: 45px;
+    list-style-type: "\274C";
+}
+
+.block3 li{
+    background-color: antiquewhite;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px ;
+    height: 100%;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.block3 li:hover{
+    background-color: darksalmon;
+    color: white;
+    width: 70%;
+    height: 45px;
+}
+
+.block4 li{
+    background-color: antiquewhite;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px ;
+    height: 100%;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.block4 li:hover{
+    background-color: darksalmon;
+    color: white;
+    width: 70%;
+    height: 45px;
+}
+
+.block1{
+    background: linear-gradient( to left, rgb(163, 168, 177), rgb(209, 209, 236))
+}
+
+.block2{
+    background: linear-gradient(to left,rgb(182, 157, 161),rgb(225, 215, 215))
+}
+
+.block3{
+    background: linear-gradient(to left, rgb(146, 143, 137), rgb(255, 250, 247));
+}
+
+.block4{
+    background: linear-gradient(to left, rgb(132, 158, 137),rgb(223, 235, 223))
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 255, 255);
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    float: left;
+
+}
+
+.nav a:hover{
+    background-color: rgb(80, 79, 78);
+    color: rgb(255, 255, 255);
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+}
+
+.block5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: azure;
+}
+
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(207, 240, 240);
+    padding: 15px 30px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0 8px rgb(136, 166, 171);
+    cursor: pointer;
+
+}
+.btn1:hover{
+    background-color: rgb(131, 158, 152);
+    color: rgb(203, 203, 203);
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px white;
+}
+
+.btn1:active {
+    background-color: rgb(126, 128, 171);
+    color: blanchedalmond;
+}
+
+.btn2{
+    background-color: azure;
+    padding: 15px 15px;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 8px rgb(83, 90, 92);
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: bisque;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px white;
+}
+.btn2:active{
+    background-color: grey;
+}
+
+form{
+    width: 400px;
+    float: right;
+    display: flex;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.search{
+    width: 75%;
+}
+
+.button{
+   width: 25%;
+   background-color: rgb(198, 157, 111); 
+   color: rgb(30, 29, 29);
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: darkgrey;
+    color: black;
+}
